@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 25 15:37:19 2022
+# Make data base, printed on Mon Jul 25 23:36:02 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ PATH = /home/panechek/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ae4d4f8f-7f83-4a03-bfa2-6e45778928db.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-fbba8b80-753f-4e16-b151-13ce9f31dfe5.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -186,10 +186,8 @@ lint:
 #  recipe to execute (from 'Makefile', line 5):
 	npx stylelint ./src/styles/*.css
 	npx stylelint ./src/styles/**/*.scss
- 
 	npx htmlhint ./src/*.html
 
- 
 deploy:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -218,6 +216,6 @@ install:
 # strcache performance: lookups = 30 / hit rate = 23%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=1/30=3%
-# Finished Make data base on Mon Jul 25 15:37:19 2022
+# Finished Make data base on Mon Jul 25 23:36:02 2022
 
  
