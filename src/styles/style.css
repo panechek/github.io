@@ -178,6 +178,10 @@ h5 {
   font-weight: 400;
 }
 
+.fw-700 {
+  font-weight: 700;
+}
+
 .header-images {
   position: absolute;
 
@@ -341,8 +345,4 @@ input {
 
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-}
-
-.mt-27 {
-  margin-top: 27px;
 }
