@@ -140,7 +140,6 @@ h5 {
 
 .back-light {
   background-color: var(--color-light);
-  opacity: 0.9;
 }
 
 .back-brown {
@@ -187,7 +186,7 @@ h5 {
 
   top: 55px;
   right: -270px;
-  z-index: -1;
+  z-index: 0;
 
   height: 525px;
 }
