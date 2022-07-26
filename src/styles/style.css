@@ -346,3 +346,7 @@ input {
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
+.mb-8 {
+  margin-bottom: 8px;
+}
